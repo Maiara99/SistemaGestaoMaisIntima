@@ -1,0 +1,8 @@
+#page-home{
+    display: flex;
+    justify-content: space-between;
+}
+#page-home a{
+    text-decoration: none;
+    color: black;
+}
