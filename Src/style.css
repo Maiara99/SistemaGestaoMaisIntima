@@ -1,9 +1,8 @@
-header{
-    height: 200px;
-}
 #page-home{
+    height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: row-reverse;
+    width: 930px;
 }
 body a{
     text-decoration: none;
@@ -17,6 +16,10 @@ body a{
     width: 336px;
     background: linear-gradient(180deg, #EDBBBB 0%, rgba(237, 187, 187, 0) 100%);
     mix-blend-mode: normal;
+}
+.navegação a{
+    justify-content: center;
+    align-items: center;
 }
 article{
     justify-content: space-around;
