@@ -1,8 +1,47 @@
+header{
+    height: 200px;
+}
 #page-home{
     display: flex;
     justify-content: space-between;
 }
-#page-home a{
+body a{
     text-decoration: none;
     color: black;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.navegação{
+    width: 336px;
+    background: linear-gradient(180deg, #EDBBBB 0%, rgba(237, 187, 187, 0) 100%);
+    mix-blend-mode: normal;
+}
+article{
+    justify-content: space-around;
+}
+#products{
+    display: flex;
+    justify-content: space-around;
+}
+#products .Lingeries{
+    width: 460px;
+    height: 290px;
+    background: #afadad;
+    border-radius: 50px;
+}
+#products .Toys{
+    width: 460px;
+    height: 290px;
+    background: #afadad;
+    border-radius: 50px;
+}
+#destaque{
+    margin-top: 40px;
+    width: 930px;
+    height: 290px;
+    background: #afadad;
+    border-radius: 50px;
+    align-items: flex-end;
 }
